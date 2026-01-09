@@ -1,8 +1,9 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+# Run `pyinstaller` on this spec either adjacently to `con/duct` or adjust path below to target the correct file
 
 a = Analysis(
-    ['src/con_duct/cli.py'],
+    ['../duct/src/con_duct/cli.py'],
     pathex=[],
     binaries=[],
     datas=[],
